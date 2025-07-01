@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_container {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card_profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.card_profile_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 700;
+}
+
+.card_profile_info p {
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: hsl(75, 94%, 57%);
+}
+
+.card_profile_career {
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+.card_image {
+  border-radius: 100%;
+  width: 80px;
+}
+
+.card_social_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.social_link {
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border-radius: 7px;
+    transition: 0.3s;
+}
+
+.social_link:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+
+footer {
+  padding: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
