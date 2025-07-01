@@ -77,17 +77,32 @@ h1 {
   width: 100%;
   text-align: center;
   border-radius: 7px;
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .social_link:hover {
-    background-color: hsl(75, 94%, 57%);
-    cursor: pointer;
-    color: hsl(0, 0%, 8%);
+  background-color: hsl(75, 94%, 57%);
+  cursor: pointer;
+  color: hsl(0, 0%, 8%);
 }
 
 footer {
   padding: 1rem;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media (max-width: 375px) {
+    .card_container {
+        margin: 0 2rem ;
+        padding: 1rem;
+    }
+
+    .card_profile_career {
+        font-size: 0.9rem;
+    }
+
+    .social_link {
+        width: 93%;
+    }
 }
